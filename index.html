@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Für dich 🌸</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=Nunito:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght=0,400;1,400&family=Nunito:wght=300;400;500&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
 html,body{height:100%;font-family:'Nunito',sans-serif;background:#fdf6f0;color:#4a3535;overflow:hidden;}
@@ -102,7 +102,7 @@ html,body{height:100%;font-family:'Nunito',sans-serif;background:#fdf6f0;color:#
     <div class="flower-wrap" id="flowerBtn">
       <div class="flower-ring"></div>
       <div class="flower-ring2"></div>
-      <img class="flower-img" src="Blumen.jpeg" alt="Blumenstrauß" onerror="this.style.display='none'">
+      <img class="flower-img" src="Blumen.jpeg" alt="Blumenstrauß">
     </div>
     <div class="p1-title">Für <em>dich</em> ♡</div>
     <div class="p1-note">
@@ -738,74 +738,3 @@ window.addEventListener('load', function() {
     ctx.lineTo(cx+s*0.38,foot-s*0.08); ctx.lineTo(cx+s*0.25,foot-s*0.38);
     ctx.closePath(); ctx.fill();
     ctx.fillStyle='#ffc8d8';
-    ctx.beginPath();
-    ctx.moveTo(cx-s*0.04,foot-s*0.38); ctx.lineTo(cx-s*0.1,foot-s*0.13);
-    ctx.lineTo(cx+s*0.09,foot-s*0.13); ctx.lineTo(cx+s*0.12,foot-s*0.38);
-    ctx.closePath(); ctx.fill();
-
-    ctx.strokeStyle=skin; ctx.lineWidth=s*0.11;
-    ctx.beginPath(); ctx.moveTo(cx+s*0.1,foot-s*0.72); ctx.lineTo(cx-s*0.28,foot-s*0.55); ctx.stroke();
-    ctx.beginPath(); ctx.moveTo(cx+s*0.1,foot-s*0.72); ctx.lineTo(cx+s*0.32,foot-s*0.55); ctx.stroke();
-
-    ctx.fillStyle='#d4608a';
-    ctx.beginPath();
-    ctx.moveTo(cx-s*0.22,foot-s*0.38); ctx.lineTo(cx-s*0.24,foot-s*0.75);
-    ctx.quadraticCurveTo(cx,foot-s*0.84,cx+s*0.24,foot-s*0.75);
-    ctx.lineTo(cx+s*0.22,foot-s*0.38); ctx.closePath(); ctx.fill();
-    ctx.fillStyle='#fff';
-    ctx.beginPath(); ctx.moveTo(cx-s*0.08,foot-s*0.75); ctx.lineTo(cx,foot-s*0.65); ctx.lineTo(cx+s*0.08,foot-s*0.75); ctx.closePath(); ctx.fill();
-    ctx.fillStyle='#f5a0b8';
-    ctx.beginPath(); ctx.arc(cx,foot-s*0.64,s*0.042,0,Math.PI*2); ctx.fill();
-
-    ctx.fillStyle=skin;
-    ctx.beginPath(); ctx.roundRect(cx-s*0.07,foot-s*0.86,s*0.14,s*0.13,s*0.04); ctx.fill();
-
-    ctx.fillStyle=skin;
-    ctx.beginPath(); ctx.ellipse(cx+s*0.02,foot-s*1.04,s*0.19,s*0.2,0,0,Math.PI*2); ctx.fill();
-
-    ctx.fillStyle='#3d2010';
-    ctx.beginPath(); ctx.ellipse(cx-s*0.01,foot-s*1.08,s*0.21,s*0.155,-0.12,Math.PI,Math.PI*2); ctx.fill();
-    ctx.beginPath();
-    ctx.moveTo(cx-s*0.16,foot-s*1.04);
-    ctx.bezierCurveTo(cx-s*0.36,foot-s*0.86,cx-s*0.42,foot-s*0.65,cx-s*0.3,foot-s*0.48);
-    ctx.bezierCurveTo(cx-s*0.38,foot-s*0.6,cx-s*0.34,foot-s*0.8,cx-s*0.2,foot-s*0.98);
-    ctx.fill();
-    ctx.beginPath();
-    ctx.moveTo(cx+s*0.15,foot-s*1.18);
-    ctx.bezierCurveTo(cx+s*0.23,foot-s*1.08,cx+s*0.24,foot-s*0.96,cx+s*0.18,foot-s*0.88);
-    ctx.bezierCurveTo(cx+s*0.22,foot-s*0.94,ctx+s*0.2,foot-s*1.06,cx+s*0.12,foot-s*1.16);
-    ctx.fill();
-    ctx.beginPath(); ctx.ellipse(cx+s*0.04,foot-s*1.22,s*0.17,s*0.08,0.1,0,Math.PI*2); ctx.fill();
-
-    ctx.fillStyle='#fff';
-    ctx.beginPath(); ctx.ellipse(cx+s*0.1,foot-s*1.06,s*0.048,s*0.036,0,0,Math.PI*2); ctx.fill();
-    ctx.fillStyle='#2a1808';
-    ctx.beginPath(); ctx.ellipse(cx+s*0.115,foot-s*1.06,s*0.028,s*0.028,0,0,Math.PI*2); ctx.fill();
-    ctx.fillStyle='#fff';
-    ctx.beginPath(); ctx.ellipse(cx+s*0.125,foot-s*1.072,s*0.01,s*0.01,0,0,Math.PI*2); ctx.fill();
-    ctx.strokeStyle='#2a1808'; ctx.lineWidth=s*0.025;
-    ctx.beginPath(); ctx.arc(cx+s*0.1,foot-s*1.06,s*0.05,Math.PI*1.15,Math.PI*1.85); ctx.stroke();
-
-    ctx.fillStyle='rgba(240,150,160,0.35)';
-    ctx.beginPath(); ctx.ellipse(cx+s*0.17,foot-s*0.98,s*0.055,s*0.03,0,0,Math.PI*2); ctx.fill();
-
-    ctx.strokeStyle='#c06070'; ctx.lineWidth=s*0.035;
-    ctx.beginPath(); ctx.arc(cx+s*0.09,foot-s*0.96,s*0.065,0.1,Math.PI*0.9); ctx.stroke();
-
-    var nfs = Math.max(10, Math.round(s*0.38));
-    ctx.font='bold '+nfs+'px Nunito';
-    ctx.textAlign='center'; ctx.textBaseline='bottom';
-    var nw = ctx.measureText('Zoe').width + s*0.22;
-    ctx.fillStyle='rgba(255,255,255,0.88)';
-    ctx.beginPath(); ctx.roundRect(cx-nw/2, foot-s*1.56, nw, nfs*1.3, nfs*0.4); ctx.fill();
-    ctx.strokeStyle='#f0c0cc'; ctx.lineWidth=1.2; ctx.stroke();
-    ctx.fillStyle='#8a3050';
-    ctx.fillText('Zoe', cx, foot-s*1.34);
-
-    ctx.restore();
-  }
-
-});
-</script>
-</body>
-</html>
